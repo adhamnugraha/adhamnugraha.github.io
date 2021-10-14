@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
@@ -18,6 +21,7 @@
     <link href="style.css" rel="stylesheet" />
 
     <title>Web Portofolio | Adham</title>
+    <link rel="shortcut icon" href="img/ANICONB.png" type="image/x-icon" />
   </head>
   <body>
     <!-- navbar -->
@@ -65,18 +69,20 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md mb-3">
-            <h2>About Me</h2>
+            <h2 data-aos="fade-in" data-aos-duration="700">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-md-4 text-md-end">
-            <p>
+            <p data-aos="fade-right">
               Saya seorang yang berpengalaman dalam 8 bulan bekerja sebagai pengelola website marketplace dan landing page. Saya memiliki kemampuan dalam bahasa pemrograman HTML, CSS, JavaScript, PHP dan saya bisa mengoperasikan komputer
               dengan baik.
             </p>
           </div>
           <div class="col-md-4 text-md-start">
-            <p>Saya juga seorang yang memiliki kemampuan dalam mendesain berbagai macam media promosi seperti banner dan desain promosi media social. Saya menguasai software desain Adobe Photoshop dan Adobe Ilustrator.</p>
+            <p data-aos="fade-left" data-aos-delay="200">
+              Saya juga seorang yang memiliki kemampuan dalam mendesain berbagai macam media promosi seperti banner dan desain promosi media social. Saya menguasai software desain Adobe Photoshop dan Adobe Ilustrator.
+            </p>
           </div>
         </div>
       </div>
@@ -95,12 +101,12 @@
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3">
-            <h2>My Projects</h2>
+            <h2 data-aos="fade-in" data-aos-duration="700">My Projects</h2>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <img src="img/project/WEB-PEMINJAMAN.jpg" class="card-img-top" alt="web-inventaris" />
 
               <div class="card-body">
@@ -109,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
               <img src="img/project/02desain-banner-kq.jpg" class="card-img-top" alt="banner-kq" />
               <div class="card-body">
                 <p class="card-text">Desain Banner Program UMKM</p>
@@ -117,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200">
               <img src="img/project/logo-iwarga-fix.png" class="card-img-top" alt="iwarga" />
               <div class="card-body">
                 <p class="card-text">Desain Logo I Warga</p>
@@ -127,7 +133,7 @@
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="300">
               <img src="img/project/01project-tarkam.jpg" class="card-img-top" alt="tarkam" />
               <div class="card-body">
                 <p class="card-text">Aplikasi Dekstop Tarkam</p>
@@ -135,7 +141,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="400">
               <img src="img/project/03-ui-adroid-op.jpg" class="card-img-top" alt="lightroom" />
               <div class="card-body">
                 <p class="card-text">Desain UI</p>
@@ -159,7 +165,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3 mt-3">
-            <h2>Contat Me</h2>
+            <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -209,6 +215,15 @@
 
     <!-- script bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        once: true,
+        duration: 900,
+      });
+    </script>
 
     <!-- submit contact form -->
     <script>
