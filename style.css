@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #0d9b8c;
+}
+.jumbotron {
+  /* padding-top: 6rem; */
+  /* background-image: url("img/bg-dham.jpg"); */
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
+  /* background-position: 0 -15px; */
+  /* color: white; */
+  background-color: #a2f8eec7;
+  padding-top: 5rem;
+}
+#projects {
+  background-color: #a2f8eec7;
+}
+
+section {
+  scroll-margin-top: 4rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+.card img {
+  object-fit: cover;
+  width: 100%;
+}
+
+footer {
+  background-color: #0d9b8c;
+}
