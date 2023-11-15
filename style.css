@@ -1,18 +1,21 @@
 .navbar {
-  background-color: #0d9b8c;
+  background-color: #111111;
 }
 .jumbotron {
-  /* padding-top: 6rem; */
-  /* background-image: url("img/bg-dham.jpg"); */
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
-  /* background-position: 0 -15px; */
-  /* color: white; */
-  background-color: #a2f8eec7;
+  background-color: #232323;
   padding-top: 5rem;
+  /* padding-bottom:10rem; */
+}
+#about {
+  background-color: #343434;
+  color: white;
 }
 #projects {
-  background-color: #a2f8eec7;
+  background-color: #232323;
+}
+
+.gelombang {
+  margin-bottom: -0.25rem !important;
 }
 
 section {
@@ -28,7 +31,7 @@ section {
 }
 
 footer {
-  background-color: #0d9b8c;
+  background-color: #111111;
 }
 #imgproject {
   cursor: pointer;
