@@ -34,21 +34,13 @@
   <body>
     <!-- navbar -->
     <nav
-      class="navbar navbar-expand-md navbar-dark shadow-sm fixed-top"
-      id="navbar"
+      class="navbar navbar-expand-md navbar-dark shadow-sm fixed-top navbar-scrolled" id="navbar"
     >
       <div class="container">
         <a class="navbar-brand" href="#home">Adham Nugraha</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="bi bi-list"></i>Menu
+        <button class="navbar-toggler"type="button" data-bs-toggle="collapse" ata-bs-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>Menu
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto navbar-nav-scroll">
@@ -75,7 +67,7 @@
     <!-- jumbotron -->
     <section class="jumbotron text-center" id="home">
       <img
-        src="img/siluet2.jpg"
+        src="img/ADHAM-kotak.jpg"
         alt="adham nugraha"
         width="180"
         class="rounded-circle"
@@ -84,7 +76,8 @@
       <p class="lead text-white"data-aos="fade" data-aos-delay="2000" data-aos-duration="2000"> Graphic Design | Web Programmer</p>
       <a class="btn button-cv mt-1 btn-sm btn-outline-light"
       data-aos="fade" data-aos-delay="3000" data-aos-duration="3000"href="/files/cv-adham-2023.pdf" role="button ">Download CV</a>
-      <svg class="gelombang xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#343434" fill-opacity="1" d="M0,160L80,154.7C160,149,320,139,480,122.7C640,107,800,85,960,80C1120,75,1280,85,1360,90.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" "></path></svg>
+
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(52, 52, 52, 1)" offset="0%"></stop><stop stop-color="rgba(52, 52, 52, 0.17)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,343L80,334.8C160,327,320,310,480,294C640,278,800,261,960,253.2C1120,245,1280,245,1440,220.5C1600,196,1760,147,1920,155.2C2080,163,2240,229,2400,228.7C2560,229,2720,163,2880,130.7C3040,98,3200,98,3360,155.2C3520,212,3680,327,3840,375.7C4000,425,4160,408,4320,383.8C4480,359,4640,327,4800,285.8C4960,245,5120,196,5280,220.5C5440,245,5600,343,5760,343C5920,343,6080,245,6240,212.3C6400,180,6560,212,6720,212.3C6880,212,7040,180,7200,196C7360,212,7520,278,7680,285.8C7840,294,8000,245,8160,212.3C8320,180,8480,163,8640,196C8800,229,8960,310,9120,343C9280,376,9440,359,9600,326.7C9760,294,9920,245,10080,261.3C10240,278,10400,359,10560,367.5C10720,376,10880,310,11040,277.7C11200,245,11360,245,11440,245L11520,245L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z"></path></svg>
     </section>
     <!-- akhir jumbotron -->
 
@@ -120,6 +113,8 @@
     </section>
     <!-- akhir about -->
 
+    
+
     <!-- project -->
     <section id="projects">
       <div class="container">
@@ -128,82 +123,73 @@
             <h2 data-aos="fade-in" data-aos-duration="700">My Projects</h2>
           </div>
         </div>
+        <!-- project web -->
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class="text-white mb-3" style="font-family: Helvetica;">Web Project<hr> </h5>
+          </div>
+        </div>
         <div class="row text-center">
-          <div class="col-md-4">
-            <div
-              class="card"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-            >
-              <img
-                src="img/project/WEB-PEMINJAMAN.jpg"
-                id="imgproject"
-                class="myImages card-img-top"
-                alt="web-inventaris"
-              />
+          <div class="col-md-3">
+            <div class="card" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
+              <img src="img/project/INVENTARIS-PROJECT.png" id="imgproject" class="myImages card-img-top" alt="Web App Inventaris Project"/>
 
               <div class="card-body">
-                <p class="card-text">Website Inventory</p>
+                <p class="card-text">Website Inventory </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div
-              class="card"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-delay="50"
-            >
-              <img
-                src="img/project/02desain-banner-kq.jpg"
-                id="imgproject"
-                class="myImages card-img-top"
-                alt="banner-kq"
+          <div class="col-md-3">
+            <div class="card" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
+              <img src="img/project/agenchatbot.png" id="imgproject" class="myImages card-img-top" alt="Web Landing Page Agenchatbot "/>
+              <div class="card-body">
+                <p class="card-text">Landing Page Agenchatbot </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
+              <img src="img/project/SHEIKA-HIJAB.png" id="imgproject" class="myImages card-img-top"alt="Landing Page Sheika Hijab"/>
+              <div class="card-body">
+                <p class="card-text">Landing Page Sheika Hijab</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="50">
+              <img src="img/project/TARKAMPROJECT.png" id="imgproject" class="myImages card-img-top"alt="Project Lomba Desktop App Tarkam Solution For Bussiness"/>
+              <div class="card-body">
+                <p class="card-text">Aplikasi Dekstop Tarkam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- project desain -->
+        <div class="row">
+          <div class="col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="150">
+            <h5 class="text-white mb-3 mt-2" style="font-family: Helvetica;">Design Project<hr> </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
+              <img src="img/project/logo-iwarga-fix.png" id="imgproject" class="myImages card-img-top"alt=" Project Logo untuk I Warga "/>
+              <div class="card-body">
+                <p class="card-text">Desain Logo I Warga</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+              data-aos-delay="150">
+              <img src="img/project/02desain-banner-kq.jpg" id="imgproject" class="myImages card-img-top" alt="Project Desain Banner Web Program UMKM"
               />
               <div class="card-body">
                 <p class="card-text">Desain Banner Program UMKM</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div
-              class="card"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-delay="100"
-            >
-              <img
-                src="img/project/logo-iwarga-fix.png"
-                id="imgproject"
-                class="myImages card-img-top"
-                alt="iwarga"
-              />
-              <div class="card-body">
-                <p class="card-text">Desain Logo I Warga</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-md-4">
-            <div
-              class="card"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-delay="150"
-            >
-              <img
-                src="img/project/01project-tarkam.jpg"
-                id="imgproject"
-                class="myImages card-img-top"
-                alt="tarkam"
-              />
-              <div class="card-body">
-                <p class="card-text">Aplikasi Dekstop Tarkam</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div
               class="card"
               data-aos="fade-up"
@@ -222,7 +208,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div
               class="card"
               data-aos="fade-up"
@@ -243,6 +229,7 @@
           </div>
         </div>
       </div>
+      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="gelombang">
         <path
           fill="#ffff"
@@ -325,6 +312,7 @@
           </div>
         </div>
       </div>
+      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="gelombang">
         <path
           fill="#111111"
@@ -367,16 +355,28 @@
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
-      <span class="close">&times;</span>
+      
       <img class="modal-content" id="img01" />
+     <i class="bi bi-x close"></i>
       <div id="caption"></div>
     </div>
     <!-- script bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+
+      <script>
+        const navEl = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+          if (window.scrollY  >=90) {
+            navEl.classList.add('navbar-scrolled');
+          }else if (window.scrollY <90){
+            navEl.classList.remove('navbar-scrolled');
+          }
+        });
+      </script>
 
     <script>
       // create references to the modal...
