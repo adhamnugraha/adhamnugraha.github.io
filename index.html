@@ -34,13 +34,21 @@
   <body>
     <!-- navbar -->
     <nav
-      class="navbar navbar-expand-md navbar-dark shadow-sm fixed-top navbar-scrolled" id="navbar"
+      class="navbar navbar-expand-md navbar-dark shadow-sm fixed-top navbar-scrolled"
+      id="navbar"
     >
       <div class="container">
         <a class="navbar-brand" href="#home">Adham Nugraha</a>
-        <button class="navbar-toggler"type="button" data-bs-toggle="collapse" ata-bs-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="bi bi-list"></i>Menu
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>Menu
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto navbar-nav-scroll">
@@ -65,25 +73,25 @@
     <!-- akhir navbar -->
 
     <!-- jumbotron -->
-    <section class="jumbotron text-center" id="home">
-      <img
-        src="img/ADHAM-kotak.jpg"
-        alt="adham nugraha"
-        width="180"
-        class="rounded-circle"
+    <section id="home" class="jumbotron text-center">
+      <!-- <div id="particles-js"></div> -->
+      <img src="img/ADHAM-kotak.jpg" alt="adhamnugraha" width="180" class="rounded-circle"
       />
       <h1 class="display-4 fw-normal text-white">Adham Nugraha</h1>
       <p class="lead text-white"data-aos="fade" data-aos-delay="2000" data-aos-duration="2000"> Graphic Design | Web Programmer</p>
       <a class="btn button-cv mt-1 btn-sm btn-outline-light"
       data-aos="fade" data-aos-delay="3000" data-aos-duration="3000"href="/files/cv-adham-2023.pdf" role="button ">Download CV</a>
-
+    
+      
       <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(52, 52, 52, 1)" offset="0%"></stop><stop stop-color="rgba(52, 52, 52, 0.17)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,343L80,334.8C160,327,320,310,480,294C640,278,800,261,960,253.2C1120,245,1280,245,1440,220.5C1600,196,1760,147,1920,155.2C2080,163,2240,229,2400,228.7C2560,229,2720,163,2880,130.7C3040,98,3200,98,3360,155.2C3520,212,3680,327,3840,375.7C4000,425,4160,408,4320,383.8C4480,359,4640,327,4800,285.8C4960,245,5120,196,5280,220.5C5440,245,5600,343,5760,343C5920,343,6080,245,6240,212.3C6400,180,6560,212,6720,212.3C6880,212,7040,180,7200,196C7360,212,7520,278,7680,285.8C7840,294,8000,245,8160,212.3C8320,180,8480,163,8640,196C8800,229,8960,310,9120,343C9280,376,9440,359,9600,326.7C9760,294,9920,245,10080,261.3C10240,278,10400,359,10560,367.5C10720,376,10880,310,11040,277.7C11200,245,11360,245,11440,245L11520,245L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z"></path></svg>
-    </section>
+      
+    </section> 
+ 
     <!-- akhir jumbotron -->
 
     <!-- about -->
-    <section id="about">
-      <div class="container">
+    <section id="about" class="about"> 
+      <div class="container" style="padding-bottom: 5rem;">
         <div class="row text-center">
           <div class="col-md mb-3">
             <h2 data-aos="fade-in" data-aos-duration="700">About Me</h2>
@@ -108,8 +116,6 @@
           </div>
         </div>
       </div>
-      <svg class="gelombang xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#232323" fill-opacity="1" d="M0,224L80,213.3C160,203,320,181,480,186.7C640,192,800,224,960,224C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-      </svg>
     </section>
     <!-- akhir about -->
 
@@ -117,7 +123,7 @@
 
     <!-- project -->
     <section id="projects">
-      <div class="container">
+      <div class="container" style="padding-top: 4rem; padding-bottom: 5rem;">
         <div class="row text-center">
           <div class="col mb-3 text-white">
             <h2 data-aos="fade-in" data-aos-duration="700">My Projects</h2>
@@ -132,117 +138,114 @@
         <div class="row text-center">
           <div class="col-md-3">
             <div class="card" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
-              <img src="img/project/INVENTARIS-PROJECT.png" id="imgproject" class="myImages card-img-top" alt="Web App Inventaris Project"/>
-
+              <img src="img/project/INVENTARIS-PROJECT.png" data-bs-toggle="modal" data-bs-target="#modal1" id="imgproject" class="myImages card-img-top" alt="Web App Inventaris Project"/>
               <div class="card-body">
                 <p class="card-text">Website Inventory </p>
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="card" data-aos="fade-up"data-aos-anchor-placement="center-bottom">
-              <img src="img/project/agenchatbot.png" id="imgproject" class="myImages card-img-top" alt="Web Landing Page Agenchatbot "/>
+              <img src="img/project/agenchatbot.png" data-bs-toggle="modal" data-bs-target="#modal2" id="imgproject" class="myImages card-img-top" alt="Web Landing Page Agenchatbot "/>
               <div class="card-body">
                 <p class="card-text">Landing Page Agenchatbot </p>
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
-              <img src="img/project/SHEIKA-HIJAB.png" id="imgproject" class="myImages card-img-top"alt="Landing Page Sheika Hijab"/>
+              <img src="img/project/SHEIKA-HIJAB.png" data-bs-toggle="modal" data-bs-target="#modal3"id="imgproject" class="myImages card-img-top"alt="Landing Page Sheika Hijab"/>
               <div class="card-body">
                 <p class="card-text">Landing Page Sheika Hijab</p>
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="50">
-              <img src="img/project/TARKAMPROJECT.png" id="imgproject" class="myImages card-img-top"alt="Project Lomba Desktop App Tarkam Solution For Bussiness"/>
+              <img src="img/project/TARKAMPROJECT.png" data-bs-toggle="modal" data-bs-target="#modal4" id="imgproject"class="myImages card-img-top"alt="Project Lomba Desktop App Tarkam Solution For Bussiness"/>
               <div class="card-body">
                 <p class="card-text">Aplikasi Dekstop Tarkam</p>
               </div>
             </div>
           </div>
         </div>
+
         <!-- project desain -->
         <div class="row">
           <div class="col-md-12" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="150">
             <h5 class="text-white mb-3 mt-2" style="font-family: Helvetica;">Design Project<hr> </h5>
           </div>
         </div>
-        <div class="row">
+        <div class="row text-center">
           <div class="col-md-3">
             <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
-              <img src="img/project/logo-iwarga-fix.png" id="imgproject" class="myImages card-img-top"alt=" Project Logo untuk I Warga "/>
+              <img src="img/project/logo-iwarga-fix.png" data-bs-toggle="modal" data-bs-target="#modal5" id="imgproject" class="myImages card-img-top"alt=" Project Logo untuk I Warga "/>
               <div class="card-body">
-                <p class="card-text">Desain Logo I Warga</p>
+                <p class="card-text">Desain Logo i Warga</p>
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
             <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
               data-aos-delay="150">
-              <img src="img/project/02desain-banner-kq.jpg" id="imgproject" class="myImages card-img-top" alt="Project Desain Banner Web Program UMKM"
+              <img src="img/project/02desain-banner-kq.jpg"data-bs-toggle="modal" data-bs-target="#modal6" id="imgproject" class="myImages card-img-top" alt="Project Desain Banner Web Program UMKM"
               />
               <div class="card-body">
                 <p class="card-text">Desain Banner Program UMKM</p>
               </div>
             </div>
           </div>
+
           <div class="col-md-3">
-            <div
-              class="card"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-delay="200"
-            >
-              <img
-                src="img/project/logosoregasimerah.png"
-                id="imgproject"
-                class="myImages card-img-top"
-                alt="Desain Logo Soregasi Coffee"
-                style="width: 100%"
-              />
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200">
+              <img src="img/project/soregasifix.png"data-bs-toggle="modal" data-bs-target="#modal7"id="imgproject" class="myImages card-img-top"
+                alt="Desain Logo Soregasi Coffee"/>
               <div class="card-body">
                 <p class="card-text">Desain Logo Soregasi Coffee</p>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <div
-              class="card"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-delay="250"
-            >
-              <img
-                src="img/project/03-ui-adroid-op.jpg"
-                id="imgproject"
-                class="myImages card-img-top"
-                alt=""
-                style="width: 100%"
-              />
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="250">
+              <div id="carouselExample" class="carousel slide carousel-dark slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" >
+                    <img src="img/project/safwah-app.png" data-bs-toggle="modal" data-bs-target="#modal8"id="imgproject" class="d-block myImages card-img-top" id="imgproject" alt="Desain UI">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/project/safwahkitchen.png" data-bs-toggle="modal" data-bs-target="#modal8" id="imgproject" class="d-block myImages card-img-top" id="imgproject" alt="Desain UI"><a href="https://play.google.com/store/apps/details?id=com.moc.safwahkitchen"></a>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/project/safwahkitchen2.png" data-bs-toggle="modal" data-bs-target="#myModal"id="imgproject" class="d-block myImages card-img-top" id="imgproject" alt="Desain UI">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
               <div class="card-body">
-                <p class="card-text">Desain UI Food ORDER</p>
+                <p class="card-text">Desain logo Safwah Kitchen</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="gelombang">
-        <path
-          fill="#ffff"
-          fill-opacity="1"
-          d="M0,64L48,96C96,128,192,192,288,192C384,192,480,128,576,112C672,96,768,128,864,138.7C960,149,1056,139,1152,128C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </section>
     <!-- akhir project -->
-
+          
     <!-- contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container" style="padding-top: 4rem;">
         <div class="row text-center">
           <div class="col mb-3 mt-3">
             <h2>Contact Me</h2>
@@ -329,7 +332,7 @@
         &copy 2021 | Created With
         <i class="bi bi-heart-fill text-danger"></i> By
         <a
-          href="https://www.instagram.com/adhamnugraha12/"
+          href="https://www.instagram.com/adhamngrha/"
           class="text-white fw-bold"
         >
           Adham Nugraha</a
@@ -352,14 +355,245 @@
       </p>
     </footer>
     <!-- akhir footer -->
+    
+    <!-- Modal Awal -->
+    <div class="modal modal fade" id="modal1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-      
-      <img class="modal-content" id="img01" />
-     <i class="bi bi-x close"></i>
-      <div id="caption"></div>
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img src="/img/project/INVENTARIS-PROJECT.png" class="modal-image w-100 pb-4"/>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Website inventory adalah aplikasi berbasis Web untuk mengatur dan mencatat keluar masuk barang di masing-masing gudang dalam satu perusahaan, yang meliputi pencatatan barang masuk dari Supplier dan pencatatan barang keluar.<br>Website Inventory merupakan project saya untuk uji kompetensi sertifikasi sebagai Junior Web Developer, Website ini dibuat menggunakan PHP HTML CSS Library Bootstrap serta JavaScript </p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
     </div>
+    <div class="modal modal fade" id="modal2">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img src="/img/project/agenchatbot.png" class="modal-image w-100"/>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Website ini merupakan website landing page untuk WABOTCORP yang menjual tools whatsapp bot <br>website ini merupakan salah satu project yang saya kerjakan ketika bekerja di PT KLikquick Indonesia Landing website ini untuk mempromosikan dan menjelaskan produk yang dijual.  Website ini dibuat dengan html css JavaScript dan Bootstrap</p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="modal modal fade" id="modal3">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img src="/img/project/SHEIKA-HIJAB.png" class="modal-image w-100"/>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Website Sheika Hijab ini merupakan website landing page katalog untuk mempromosikan produk produk muslim , <a href="https://sheikahijab.com/">Sheika Hijab</a> merupakan salah satu client yang saya tangani ketika bekerja di Media Online Center. Website ini dibuat dengan html css JavaScript dan Bootstrap</p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal fade" id="modal4">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img src="/img/project/TARKAMPROJECT.png" class="modal-image w-100"/>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Project Tarkam ini merupakan hasil untuk saya Lomba Kompetensi Siswa di bidang IT Solution For Bussiness tingkat Kota Tasikmalaya saat saya masih sekolah di SMK Manangga Pratama dan Saya berhasil masuk 3 besar. Project ini dibuat dengan Vbnet</p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal fade" id="modal5">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img src="/img/project/logo-iwarga-fix.png" class="modal-image w-100"/>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Desain ini merupkan desain logo I warga salah satu client saat saya bekerja di PT Klikquick Indonesia <br> Tools yang dikai Adobe Photoshop <img src="/img/photoshop.png" style="width: 25px; height: 25px;">  </p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal fade" id="modal6">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img src="/img/project/02desain-banner-kq.jpg" class="modal-image w-100"/>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Desain ini merupkan desain Banner untuk promosi toko wabot saat saya bekerja di PT Klikquick Indonesia <br> Tools yang dipakai Adobe Photoshop <img src="/img/photoshop.png" style="width: 25px; height: 25px;">  </p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal fade" id="modal7">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row text-center">
+              <div class="col-6">
+                <h4>DESAIN LOGO</h4>
+              <img src="/img/project/soregasifix.png" class="modal-image w-100"/>
+            </div>
+            <div class="col-6">
+              <h4>DESAIN MENU</h4>
+              <img src="/img/project/soregasi-menu-update.jpg" class="modal-image w-100"/>
+            </div>        
+          </div>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Desain ini merupkan desain saya untuk sebuah Coffee Shop Soregasi, saya membuat desain logo dan menu menggunakan Tools yang dipakai Adobe Photoshop <img src="/img/photoshop.png" style="width: 25px; height: 25px;"></p>
+            <p>Soregasi Coffee <a href="https://www.instagram.com/soregasi.coffee/"><img src="/img/project/Instagram_icon.png"style="width: 25px; height: 25px;"></a></p>
+            <p class="text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.284332291061!2d108.2047777!3d-7.321925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f57ffbfae7c05%3A0x223e8e126c87dd12!2sSoregasi%20Coffee!5e0!3m2!1sid!2sid!4v1700213098204!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal fade" id="modal8">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title"></h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="row text-center">
+              <div class="col-sm-6">
+                <img src="/img/project/safwahkitchen.png" class="modal-image w-100"/>
+                <img src="/img/project/safwahkitchen2.png" class="modal-image w-100"/>
+              </div>
+              <div class="col-sm-6">
+                <img src="/img/project/safwah-logo.png" class="modal-image w-100"/>
+              </div>
+            </div>
+            <h4 class="font-monospace">Deskripsi :</h4>
+            <p class="desc-modal fs-5" style="font-family: Segoe UI;">Desain ini merupkan desain Banner untuk promosi toko dan aplikasi andorid Safwah Kitchen saat saya bekerja di PT Klikquick Indonesia <br>Aplikasi Safwah Kitchen <a href="https://play.google.com/store/apps/details?id=com.moc.safwahkitchen"><img src="/img/playstore.png" style="width: 10%;"></a> <br> Tools yang dipakai Adobe Photoshop <img src="/img/photoshop.png" style="width: 20px; height: 20px;"></p>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Akhir -->
+
+    <!-- <script>
+          // create references to the modal...
+          var modal = document.getElementById("myModal");
+          // to all images -- note I'm using a class!
+          var images = document.getElementsByClassName("myImages");
+          // the image in the modal
+          var modalImg = document.getElementById("img01");
+          // and the caption in the modal
+          // var captionText = document.getElementById("caption");
+
+          // Go through all of the images with our custom class
+          for (var i = 0; i < images.length; i++) {
+            var img = images[i];
+            // and attach our click listener for this image.
+            img.onclick = function (evt) {
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            };
+          };
+    </script> -->
+
     <!-- script bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
@@ -378,36 +612,6 @@
         });
       </script>
 
-    <script>
-      // create references to the modal...
-      var modal = document.getElementById("myModal");
-      // to all images -- note I'm using a class!
-      var images = document.getElementsByClassName("myImages");
-      // the image in the modal
-      var modalImg = document.getElementById("img01");
-      // and the caption in the modal
-      var captionText = document.getElementById("caption");
-
-      // Go through all of the images with our custom class
-      for (var i = 0; i < images.length; i++) {
-        var img = images[i];
-        // and attach our click listener for this image.
-        img.onclick = function (evt) {
-          modal.style.display = "block";
-          modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
-        };
-      }
-
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function () {
-        modal.style.display = "none";
-      };
-    </script>
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
@@ -422,7 +626,7 @@
     <script>
       gsap.registerPlugin(TextPlugin);
      
-      gsap.from(".navbar ", { duration: 1, y: -50, opacity: 0 });
+      // gsap.from(".navbar ", { duration: 1, y: -50, opacity: 0 });
       gsap.from(".jumbotron img", { duration: 1, opacity: 0, delay: 0.5 });
       gsap.from(".display-4", {
         duration: 1,
@@ -468,5 +672,7 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
